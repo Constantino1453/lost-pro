@@ -3,7 +3,7 @@ import { ElMessage } from 'element-plus';
 import { userStore } from "@/store/user";
 //axios请求配置
 const config = {
-    // baseURL: 'http://localhost:18089',
+    // baseURL: 'http://localhost:8089',
     // baseURL: '/api',
     baseURL:process.env.BASE_API,
     timeout: 10000,

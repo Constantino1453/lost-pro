@@ -11,7 +11,7 @@ export default defineConfig({
     open: true, //启动在浏览器打开
     // proxy: {
     //   '/api': {
-    //     target: 'http://localhost:18089/',	//接口地址
+    //     target: 'http://localhost:8089/',	//接口地址
     //     changeOrigin: true,
     //     rewrite: (path) => path.replace(/^\/api/, '')
     //   },
@@ -27,8 +27,8 @@ export default defineConfig({
   },
   define: {
     'process.env': {
-      // 'BASE_API': "http://192.168.31.70:18089"
-      'BASE_API':"http://localhost:18089"
+      // 'BASE_API': "http://192.168.31.70:8089"
+      'BASE_API':"http://localhost:8089"
     }
   },
 })
